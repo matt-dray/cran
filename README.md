@@ -1,3 +1,4 @@
+<img src="https://raw.githubusercontent.com/matt-dray/stickers/master/output/cran_hex.png" width="200" align="right">
 
 # {cran}
 
