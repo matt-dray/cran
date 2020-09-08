@@ -32,32 +32,32 @@ On load, you’re asked if you want to create the cran unit. Type `yes` and `uni
 unit ready for you to use in your workspace.
 
 ``` r
-> library(cran)
-Create the 'cran' unit of measurement for this session? yes/no: yes
-You're ready to measure uncleaned herring.
+library(cran)
+# Create the 'cran' unit of measurement for this session? yes/no: yes
+# You're ready to measure uncleaned herring.
 ```
 
 Let’s confirm that 170.5 litres is a cran:
 
 ``` r
-> cran_convert(value = 170.5, unit = "L")
-1 [cran]
+cran_convert(value = 170.5, unit = "L")
+# 1 [cran]
 ```
 
 How many crans in 10 pints?
 
 ``` r
-> cran_convert(value = 10, unit = "pint")
-0.002775229 [cran]
+cran_convert(value = 10, unit = "pint")
+# 0.002775229 [cran]
 ```
 
 We can use {units} to convert the other way as well. How many cubic
 centimetres in a cran?
 
 ``` r
-> one_cran <- units::as_units(1, "cran")
-> units::as_units(one_cran, "cc")
-170500 [cc]
+one_cran <- units::as_units(1, "cran")
+units::set_units(one_cran, "cc")
+# 170500 [cc]
 ```
 
 You can remove the cran unit at any time with `cran_remove()`. To reinstall it, use `cran_install()`.
