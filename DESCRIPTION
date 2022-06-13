@@ -1,5 +1,5 @@
 Package: cran
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Title: Convert Volumes To Units Of Uncleaned Herring
 Description: Convert a supplied volume measurement to 'crans': 'a unit of
     measure of landed uncleaned herring used in the North Sea fishing industry'
@@ -14,6 +14,6 @@ License: CC0
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
 Imports:
     units (>= 0.6.7)

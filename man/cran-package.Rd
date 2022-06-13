@@ -6,9 +6,7 @@
 \alias{cran-package}
 \title{cran: Convert Volumes To Units Of Uncleaned Herring}
 \description{
-Convert a supplied volume measurement to 'crans': 'a unit of
-    measure of landed uncleaned herring used in the North Sea fishing industry'
-    <https://en.wikipedia.org/wiki/Cran_(unit)>.
+Convert a supplied volume measurement to 'crans': 'a unit of measure of landed uncleaned herring used in the North Sea fishing industry' <https://en.wikipedia.org/wiki/Cran_(unit)>.
 }
 \author{
 \strong{Maintainer}: Matt Dray \email{mwdray@gmail.com}

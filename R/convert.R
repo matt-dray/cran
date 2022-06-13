@@ -47,7 +47,8 @@ cran_install <- function() {
   if (substr(tolower(user_input), 1, 1) == "y") {
 
     tryCatch(
-      units::install_conversion_constant("cran", "L", 170.5),
+      # units::install_conversion_constant("cran", "L", 170.5),
+      units::install_unit("cran", "170.5 L"),
       error = function(e) {
         cat("You've already installed the cran conversion.\n")
       }
@@ -74,7 +75,8 @@ cran_remove <- function() {
   )
 
   if (substr(tolower(user_input), 1, 1) == "y") {
-    units::remove_symbolic_unit("cran")
+    # units::remove_symbolic_unit("cran")
+    units::remove_unit("cran")
     cat("You're done measuring uncleaned herring.")
   }
 
